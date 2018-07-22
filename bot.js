@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'zg') {
+    if (message.content === 'ping') {
 
         message.reply('pong');
 
@@ -53,7 +53,7 @@ client.on('ready', () => {
     client.user.setStatus("dnd")
 });
 //by ! - Thereaper'
-const prefix = "$"
+
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ! - Thereaper'
